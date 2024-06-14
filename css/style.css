@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+    color: #00526b;
+}
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 400 to 700 */
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.top-container{
+    display: flex;
+    background-color: #aef9ea;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.myname{
+    font-family: "Sacramento";
+    font-style: bold;
+    font-weight: 500;
+    color: #00526b;
+}
+
+.sub_heading{
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 400;
+    color: #00526b;
+}
+
+.middle-container {
+    margin-top: 50px 0;
+    text-align: center;
+  }
+
+  .my_image{
+    /* border: #00526b; */
+    border: black;
+    border-width: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: whitesmoke;
+    color: #00526b;
+}
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 400 to 700 */
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.top-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #aef9ea;
+    height: 77vh;
+    /* align-items: center; */
+    justify-content: space-between;
+    text-align: center;
+    
+    background-image: url(./assets/Lake_background.png);
+}
+
+.myname{
+    font-family: "Sacramento";
+    font-style: bold;
+    font-weight: 500;
+    color: #012f3c;
+}
+
+.sub_heading{
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 400;
+    color: #012f3c;
+}
+
+.middle-container {
+    margin-top: 50px 0;
+    text-align: center;
+  }
+
+  .my_image{
+    border: whitesmoke;
+    /* border: black; */
+    margin-top: 90px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.intro{
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    color: #012f3c;
+}
+
+.proj_title{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.skills-title{
+    /* padding-top: 5px; */
+    padding-bottom: 2px;
+    text-align: center;
+}
